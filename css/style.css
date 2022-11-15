@@ -50,6 +50,7 @@ i {
 
 .footer__list-item {
     list-style: none;
+    font-size: 22px;
 }
 
 .footer__list-link {
@@ -69,7 +70,10 @@ i {
 
 .newsletter__form-input { 
     width: calc(100% - 3.5rem);
+    height: 3rem;
     border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
     padding-left: .5rem;
     outline: none;
 }
@@ -77,9 +81,11 @@ i {
 .newsletter__form-btn {
     cursor: pointer;
     border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 6px;
     color: #151823;
     width: 3.5rem;
-    height: 3.5rem;
+    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,8 +111,9 @@ i {
 
 .footer__bootom {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2rem;
+    font-size: 15px;
     flex-wrap: wrap;
 }
 
