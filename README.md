@@ -1,5 +1,5 @@
 # Responsive Footer
 
-## Screenshot Log in
+## Screenshot
 
 ![screenshot](screenshot.png)
